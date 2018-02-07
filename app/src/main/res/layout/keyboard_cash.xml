@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="@dimen/line_heigth"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/four"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/zero"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/line_heigth"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/five"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/eight"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/dot"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="."
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/line_heigth"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/six"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/night"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@color/keyboard_txt_color"
+            android:textSize="@dimen/keyboard_txt_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_keyboard3"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/addTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:scaleType="centerInside"
+                android:text="+"
+                android:textColor="@color/keyboard_txt_color"
+                android:textSize="@dimen/add_icon_size" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/line_heigth"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/shanchu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_keyboard2"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/deleteImageView"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/icon_delete"
+                    android:textColor="@color/keyboard_txt_color" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_heigth"
+                android:background="@color/line_color" />
+
+            <Button
+                android:id="@+id/allClean"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button_keyboard2"
+                android:gravity="center"
+                android:text="@string/clear"
+                android:textColor="@color/keyboard_txt_color"
+                android:textSize="@dimen/keyboard_txt_size"
+                android:typeface="normal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+
+        <Button
+            android:id="@+id/shouqian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button_shouqian"
+            android:drawableBottom="@drawable/icon_cash_arrow2"
+            android:drawablePadding="0dp"
+            android:gravity="center"
+            android:paddingBottom="30dp"
+            android:paddingTop="30dp"
+            android:text="收钱"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/keyboard_txt_size"
+            android:typeface="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_heigth"
+            android:background="@color/line_color" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/line_heigth"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+</LinearLayout>

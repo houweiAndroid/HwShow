@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="HouweiCuteLint" pattern="file[app]:*/" />
+</component>

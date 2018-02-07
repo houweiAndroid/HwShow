@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="?attr/colorPrimary"-->
+    <!--android:minHeight="?attr/actionBarSize"-->
+    <!--app:navigationIcon="@mipmap/ic_launcher"-->
+    <!--app:title="title">-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        app:pager_animation="Accordion"
+        app:auto_cycle="true"
+        app:indicator_visibility="visible"
+        app:pager_animation_span="1100"
+        android:layout_height="150dp" />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        style="@style/AndroidImageSlider_Magnifier_Oval_Black"
+
+        android:layout_gravity="center" />
+
+    <View style="@style/line" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/classify_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/classify_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:background="@color/lineColor"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/classify_page1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:button="@drawable/selector_indicate"-->
+        <!--android:checked="true" />-->
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/classify_page2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="13dp"-->
+        <!--android:button="@drawable/selector_indicate" />-->
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_startlcation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="开始定位"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btn_stoplocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="停止定位"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="post"
+        android:visibility="gone" />
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/ptrFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </com.cjj.MaterialRefreshLayout>
+
+</LinearLayout>

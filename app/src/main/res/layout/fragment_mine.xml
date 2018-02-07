@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:stv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.houwei.hwshop.fragment.MineFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        stv:sLeftTextString="个人信息："
+        stv:sCenterTextString="江南皮革厂"
+
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBothLineMarginLeft="20dp"
+        stv:sBothLineMarginRight="20dp"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick"
+        />
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/myorder"
+        stv:sLeftTextString="我的订单"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBothLineMarginLeft="20dp"
+        stv:sBothLineMarginRight="20dp"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick"/>
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/qianbao"
+        stv:sLeftTextString="我的钱包"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBothLineMarginLeft="20dp"
+        stv:sBothLineMarginRight="20dp"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick" />
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/safe"
+        stv:sLeftTextString="账户安全"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBothLineMarginLeft="20dp"
+        stv:sBothLineMarginRight="20dp"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick" />
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/shoucang"
+        stv:sLeftTextString="个人信息"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBothLineMarginLeft="20dp"
+        stv:sBothLineMarginRight="20dp"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick" />
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/smeller"
+        stv:sLeftTextString="我是商家"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick"/>
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/tuijian"
+        stv:sLeftTextString="推荐人"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick" />
+
+    <com.example.houwei.hwshop.widget.SuperTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        stv:sLeftIconRes="@mipmap/wurao"
+        stv:sLeftTextString="勿扰模式"
+        stv:sRightIconRes="@mipmap/detail"
+        stv:sBackgroundDrawableRes="@drawable/selector_onclick" />
+
+
+</LinearLayout>

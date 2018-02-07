@@ -1,0 +1,52 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ##按下的效果 -->
+
+    <item android:state_pressed="true"><shape>
+            <gradient android:angle="270" android:endColor="@color/button_o_select1" android:startColor="@color/button_o_select1" /><!--  渐变色 -->
+
+            <stroke android:width="0dp" android:color="@color/button_o_select" /><!--  边框色 -->
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+    <!-- ##获得焦点 -->
+
+    <item android:state_focused="true" android:state_pressed="false"><shape>
+            <gradient android:angle="270" android:endColor="@color/button_o_select1" android:startColor="@color/button_o_select1" />
+
+            <stroke android:width="0dp" android:color="@color/button_o_select" />
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+    <!-- ##原样 -->
+    <item><shape>
+            <gradient android:angle="270" android:endColor="@color/main_color" android:startColor="@color/main_color" />
+            <!--  -->
+            <stroke android:width="0dp" android:color="@color/button_o_general" />
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+</selector><!--
+<selector xmlns:android="http://schemas.android.com/apk/res/android"> 
+
+    <item android:state_pressed="true" android:drawable="@drawable/btn_square_overlay_pressed" > 
+    </item>
+
+    <item android:state_focused="true" android:drawable="@drawable/btn_square_overlay_selected" >
+    </item> 
+
+    <item android:drawable="@drawable/btn_square_overlay_normal" > 
+    </item>
+    
+
+</selector>
+-->

@@ -1,0 +1,296 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="content_padding">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="comment_face_size">42dp</dimen>
+    <dimen name="list_image_size">80dp</dimen>
+    <dimen name="top_viewpager_height">200dp</dimen>
+    <dimen name="drawer_image_height">180dp</dimen>
+    <dimen name="detail_image_height">260dp</dimen>
+    <dimen name="detail_bottom_height">56dp</dimen>
+    <dimen name="tech_image_height">300dp</dimen>
+    <dimen name="tech_icon_size">32dp</dimen>
+    <dimen name="theme_image_height">120dp</dimen>
+    <dimen name="section_image_height">140dp</dimen>
+    <dimen name="gold_image_size">60dp</dimen>
+    <dimen name="gold_icon_size">16dp</dimen>
+    <dimen name="vtex_image_size">36dp</dimen>
+    <dimen name="vtex_author_image_size">20dp</dimen>
+    <dimen name="vtex_node_image_size">60dp</dimen>
+
+    <dimen name="keyboard_txt_size">26sp</dimen>
+    <dimen name="word1_height">20dp</dimen>
+    <dimen name="word2_height">18dp</dimen>
+    <dimen name="word3_height">16dp</dimen>
+    <dimen name="word4_height">14dp</dimen>
+    <dimen name="word5_height">17dp</dimen>
+    <dimen name="word6_height">15dp</dimen>
+    <dimen name="word5_width">75dp</dimen>
+    <dimen name="logo_padding">10dp</dimen>
+    <dimen name="word_large">24dp</dimen>
+    <dimen name="text_size_max">21dp</dimen>
+    <dimen name="text_size_large">15.4dp</dimen>
+    <dimen name="text_size_normal">13.9dp</dimen>
+    <dimen name="text_size_small">11.6dp</dimen>
+    <dimen name="text_size_min">8.7dp</dimen>
+    <dimen name="key_height">80.0dp</dimen>
+    <dimen name="horizontal_margin2">20dp</dimen>
+    <dimen name="titleword_height">22dp</dimen>
+    <dimen name="horizontal_padding">5dp</dimen>
+    <dimen name="maingrid_top">5dp</dimen>
+    <dimen name="horizontal_margin">10dp</dimen>
+    <dimen name="key_top_height">50dp</dimen>
+    <dimen name="key_top_text_size">18sp</dimen>
+    <dimen name="horizontal_margin3">30dp</dimen>
+    <dimen name="horizontal_margin4">40dp</dimen>
+    <dimen name="horizontal_margin7">70dp</dimen>
+    <dimen name="textview_height">30dp</dimen>
+    <dimen name="titleimgw">100dp</dimen>
+    <dimen name="textwidth1">22dp</dimen>
+
+    <dimen name="bootom_view_height">100dp</dimen>
+    <dimen name="logo_width">65dp</dimen>
+    <dimen name="logo_height">65dp</dimen>
+
+
+    <dimen name="trade_item_left_txt_size">16dp</dimen>
+
+
+    <dimen name="pay_consume_content_txt_size">20dp</dimen>
+
+    <dimen name="app_snapshot_item_height">180dp</dimen>
+
+    <!-- 超小号 -->
+    <dimen name="text_size_micro">8sp</dimen>
+    <!-- 大一点的超小号 -->
+    <dimen name="text_size_lmicro">10sp</dimen>
+    <!-- 小号 -->
+    <dimen name="font_size_small">14sp</dimen>
+    <!-- 标准 -->
+    <dimen name="font_size_medium">18sp</dimen>
+    <!-- 大号 -->
+    <dimen name="font_size_large">22sp</dimen>
+    <!-- 大一号 -->
+    <dimen name="font_size_xlarge">26sp</dimen>
+    <!-- 大二号 -->
+    <dimen name="font_size_xxlarge">30sp</dimen>
+    <!-- 标题栏文字 -->
+    <dimen name="font_title">20sp</dimen>
+
+    <!-- 大三号 -->
+    <dimen name="font_size_xxxlarge">50sp</dimen>
+    <!-- 金额输入框字体大小 -->
+    <dimen name="font_size_cash">40sp</dimen>
+    <dimen name="textview_size1">18sp</dimen>
+    <dimen name="textview_size2">20sp</dimen>
+    <dimen name="textview_size3">22sp</dimen>
+    <dimen name="textview_size4">24sp</dimen>
+    <dimen name="textview_size5">16sp</dimen>
+    <dimen name="textview_size6">14sp</dimen>
+    <dimen name="textview_size7">12sp</dimen>
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="middle_padding">10dp</dimen>
+    <dimen name="middle_padding2">15dp</dimen>
+    <dimen name="middle_padding3">12dp</dimen>
+    <dimen name="large_padding">20dp</dimen>
+
+    <dimen name="title_layout_height">56dp</dimen>
+    <dimen name="left_button_padding">15dp</dimen>
+    <dimen name="login_txt_size">16sp</dimen>
+    <dimen name="login_txt_size2">28sp</dimen>
+    <dimen name="clear_btn_size">30dp</dimen>
+    <dimen name="margin_gap">10dp</dimen>
+    <dimen name="login_item_height">60dp</dimen>
+    <dimen name="main_page_bot_item_h">50dp</dimen>
+    <dimen name="dialog_left">15dp</dimen>
+    <!-- 水平margin -->
+    <dimen name="vertical_margin">10dp</dimen>
+    <dimen name="line_heigth">1px</dimen>
+    <dimen name="add_icon_size">38sp</dimen>
+    <dimen name="title_height">38sp</dimen>
+
+    <dimen name="vertical_padding">5dp</dimen>
+    <dimen name="imagetext_space">2dp</dimen>
+    <dimen name="pay_land_buy_txt_size">16sp</dimen>
+    <!-- payLandbuy字体大小 -->
+    <dimen name="item_height">50dp</dimen>
+    <!-- item高度 -->
+    <dimen name="layout_padding">15dp</dimen>
+    <!-- 每个布局的左右padding -->
+    <dimen name="show_money_height">150dp</dimen>
+    <!-- 收银台显示金额的高度 -->
+    <dimen name="cash_show_padding">15dp</dimen>
+    <!-- 现金收银显示的padding -->
+    <dimen name="item_title_size">16dp</dimen>
+    <!-- item左边字体大小 -->
+    <dimen name="item_content_size">26dp</dimen>
+    <!-- item右边字体大小 -->
+    <dimen name="item_content_txt_margin">15dp</dimen>
+    <!-- item两个文字的间距 -->
+    <dimen name="pay_res_bot_height">75dp</dimen>
+    <!-- 支付成功底部按钮高度 -->
+    <dimen name="img_yes_size">100dp</dimen>
+    <!-- 支付成功yes图片大小 -->
+    <dimen name="comm_padding_left10">10dp</dimen>
+    <dimen name="comm_padding_left">15dp</dimen>
+    <dimen name="comm_padding_left20">20dp</dimen>
+    <!-- 通用左margin -->
+    <dimen name="pay_res_top_padding">15dp</dimen>
+    <!-- 支付成功顶部的padding -->
+    <dimen name="title_txt_size">18sp</dimen>
+    <!-- 标题txt大小 -->
+    <dimen name="choose_item_big_txt_size">20sp</dimen>
+    <!-- commChooseDialog leftTxtSize -->
+    <dimen name="choose_dialog_margin_lft">100dp</dimen>
+    <!-- dialog 左margin -->
+    <dimen name="dialog_button_txt_size">16sp</dimen>
+    <!-- dialog btn txt size -->
+    <dimen name="choose_item_padding">50dp</dimen>
+    <dimen name="button_layout_height">50dp</dimen>
+    <!-- 对话框button高度 -->
+    <dimen name="dialog_min_height">150dp</dimen>
+    <dimen name="dialog_title_height">50dp</dimen>
+    <dimen name="alipay_image_top_margin">15dp</dimen>
+    <!-- 支付宝图片top margin -->
+    <dimen name="alipay_orderid_txt_size">20sp</dimen>
+    <!-- 支付宝订单ID字体大小 -->
+    <!-- mainpage -->
+    <dimen name="circle_btn_margin">25dp</dimen>
+    <dimen name="circle_item_margin">5dp</dimen>
+    <dimen name="circle_btn_margin_top">10dp</dimen>
+    <dimen name="circle_btn_margin_left_right">30dp</dimen>
+    <dimen name="main_gridview_margin">30dp</dimen>
+    <dimen name="main_item_img_size">100dp</dimen>
+    <dimen name="main_item_txt_top_margin">5dp</dimen>
+    <dimen name="cancel_cash_item_margin">30dp</dimen>
+    <!-- 现金撤消item间margin -->
+    <dimen name="pay_list_item_default_height">75dp</dimen>
+    <!-- paylistItem默认的高度 -->
+    <dimen name="settle_tip_txt_size">20sp</dimen>
+    <!-- 批结算tip文字大小 -->
+    <dimen name="comm_btn_txt_size">18sp</dimen>
+    <!-- activity中btn的txtSize -->
+    <dimen name="edit_line_height">6.67dp</dimen>
+    <!-- edit line height -->
+    <dimen name="scan_help_padding">20dp</dimen>
+    <!-- scanHelp界面的padding -->
+    <dimen name="edit_corner_size">5dp</dimen>
+    <!-- 圆角 -->
+    <dimen name="close_size">60dp</dimen>
+    <dimen name="find_pwd_margin_top">15dp</dimen>
+    <!-- 找回密码的marginTop -->
+    <dimen name="app_left_padding">30dp</dimen>
+    <!-- app基本的left right padding风格 -->
+
+    <dimen name="card_coupon_plus_size">35dp</dimen>
+    <!-- 会员卡新增按钮size -->
+    <dimen name="menu_item_height">60dp</dimen>
+    <dimen name="menu_txt_size">17sp</dimen>
+    <dimen name="main_menu_height">220dp</dimen>
+
+    <!-- 更多adapter txt margin -->
+    <dimen name="more_item_txt_top_margin">10dp</dimen>
+
+    <!-- 菜单按钮高度 -->
+    <dimen name="menu_bot_item_height">40dp</dimen>
+    <!-- datareport -->
+    <dimen name="datareport_bot_height">50dp</dimen>
+
+    <dimen name="trade_detial_padding">15dp</dimen>
+    <dimen name="data_report_gap">10dp</dimen>
+
+    <dimen name="delete_size">30dp</dimen>
+
+    <dimen name="delete_img_size">15dp</dimen>
+
+    <dimen name="comm_item_text_size">16dp</dimen>
+
+    <dimen name="trade_item_gap">5dp</dimen>
+    <dimen name="payconsume_item_height">50dp</dimen>
+
+    <dimen name="handover_item_height">40dp</dimen>
+
+    <dimen name="handover_title_height">60dp</dimen>
+
+    <dimen name="coupon_app_item_height">80dp</dimen>
+
+    <dimen name="title_padding">20dp</dimen>
+
+    <dimen name="search_item_height">40dp</dimen>
+
+    <dimen name="trade_total_item_height">30dp</dimen>
+
+
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_14dp">14dp</dimen>
+    <dimen name="dimen_15dp">15dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_17dp">17dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_19dp">19dp</dimen>
+    <dimen name="dimen_1dp">1dp</dimen>
+    <dimen name="dimen_1px">1px</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+    <dimen name="dimen_30dp">30dp</dimen>
+    <dimen name="dimen_22dp">22dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_25dp">25dp</dimen>
+    <dimen name="dimen_2dp">2dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_52dp">52dp</dimen>
+    <dimen name="dimen_64dp">64dp</dimen>
+    <dimen name="dimen_6dp">6dp</dimen>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="font_10sp">10sp</dimen>
+    <dimen name="font_12sp">12sp</dimen>
+    <dimen name="font_13sp">13sp</dimen>
+    <dimen name="font_14sp">14sp</dimen>
+    <dimen name="font_15sp">15sp</dimen>
+    <dimen name="font_16sp">16sp</dimen>
+    <dimen name="font_17sp">17sp</dimen>
+    <dimen name="font_18sp">18sp</dimen>
+    <dimen name="font_19sp">19sp</dimen>
+    <dimen name="font_20sp">20sp</dimen>
+    <dimen name="font_22sp">22sp</dimen>
+    <dimen name="font_25sp">25sp</dimen>
+    <dimen name="font_28sp">28sp</dimen>
+    <dimen name="font_30sp">30sp</dimen>
+    <dimen name="font_45sp">45sp</dimen>
+    <dimen name="font_8sp">8sp</dimen>
+
+
+
+
+    <!-- 打印item -->
+    <dimen name="print_item_height">60dp</dimen>
+    <dimen name="print_item_height2">100dp</dimen>
+    <dimen name="print_item_text_size">16dp</dimen>
+
+
+
+    <dimen name="common_navigator_height">45dp</dimen>
+    <dimen name="navigator_margin_top">5dp</dimen>
+    <dimen name="small_navigator_height">5dp</dimen>
+    <dimen name="navigator_margin_top_large">45dp</dimen>
+    <dimen name="large_navigator_height">65dp</dimen>
+</resources>

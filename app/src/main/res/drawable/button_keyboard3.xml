@@ -1,0 +1,47 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true"><shape>
+            <gradient android:angle="270" android:endColor="@color/key_b_general1" android:startColor="@color/key_b_general" /> <!-- 渐变色 -->
+
+            <stroke android:width="8dp" android:color="#666666" /> <!-- 边框色 -->
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+    <!-- ##按下的效果 -->
+
+    <item android:state_pressed="true"><shape>
+            <gradient android:angle="270" android:endColor="@color/key_b_general1" android:startColor="@color/key_b_general" /> <!-- 渐变色 -->
+
+            <stroke android:width="8dp" android:color="#666666" /> <!-- 边框色 -->
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+    <!-- ##获得焦点 -->
+
+    <item android:state_focused="true" android:state_pressed="false"><shape>
+            <gradient android:angle="270" android:endColor="@color/key_b_general1" android:startColor="@color/key_b_general" />
+
+            <stroke android:width="8dp" android:color="#666666" /> <!-- 边框色 -->
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+    <!-- ##原样 -->
+    <item><shape>
+            <gradient android:angle="270" android:endColor="@color/key_b_general1" android:startColor="@color/key_b_general" />
+            <!--  -->
+            <stroke android:width="0dp" android:color="@color/key_b_general" />
+
+            <corners android:radius="0dp" />
+
+            <padding android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp" />
+        </shape></item>
+
+</selector>

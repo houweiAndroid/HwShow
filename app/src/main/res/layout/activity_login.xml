@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/basa_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <!--<ImageView-->
+                <!--android:id="@id/imageview1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:src="@drawable/hyblogo" />-->
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_16dp"
+            android:paddingRight="@dimen/dimen_16dp">
+
+            <ImageView
+                android:id="@+id/photoico"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/phone_ico" />
+
+            <EditText
+                android:id="@+id/et_login_phone_number"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="请输入手机号"
+                android:inputType="text"
+                android:maxLength="11"
+                android:padding="@dimen/dimen_10dp"
+                android:textColor="#333333"
+                android:textColorHint="#bebebe"
+                android:textSize="@dimen/font_16sp" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/iv_login_delete"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:src="@drawable/login_delete"-->
+                <!--android:visibility="gone" />-->
+        </LinearLayout>
+
+    
+
+        <View
+            style="@style/line"
+            android:layout_marginTop="12dp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen_20dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
+            android:layout_marginTop="@dimen/dimen_14dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dimen_16dp"
+            android:paddingRight="@dimen/dimen_16dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/password_ico" />
+
+            <!--<cn.cloudcore.iprotect.plugin.CEditText-->
+                <!--android:id="@+id/et_login_password"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@null"-->
+                <!--android:hint="请输入密码"-->
+                <!--android:inputType="textPassword"-->
+                <!--android:maxLength="16"-->
+                <!--android:padding="@dimen/margin"-->
+                <!--android:textColor="#808080"-->
+                <!--android:textColorHint="#bebebe"-->
+                <!--android:textSize="@dimen/text_size" />-->
+
+        </LinearLayout>
+
+       
+        <View
+            style="@style/line"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_14dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dimen_16dp"
+        android:paddingRight="@dimen/dimen_16dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/verificationcode" />
+
+        <EditText
+            android:id="@+id/imgVerifyCodeEt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="验证码"
+            android:maxLength="4"
+            android:padding="@dimen/dimen_10dp"
+            android:singleLine="true"
+            android:textColor="#333333"
+            android:textColorHint="#bebebe"
+            android:textSize="@dimen/font_16sp" />
+
+        <!--<com.pinganbank.pinganmember.view.AsyncVerifyCodeImageView-->
+            <!--android:id="@+id/imgVerify"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:clickable="true" />-->
+
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginTop="12dp" />
+
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20dp"
+        android:layout_marginRight="@dimen/dimen_20dp"
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:background="@mipmap/login_button"
+        android:gravity="center"
+        android:padding="@dimen/dimen_10dp"
+        android:textColor="#F14F23"
+        android:textSize="@dimen/font_18sp" />
+
+
+    <TextView
+        android:id="@+id/tv_login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/dimen_40dp"
+        android:text="注册平安会员宝新用户"
+        android:textColor="#333333"
+        android:textSize="@dimen/font_17sp" />
+
+    <TextView
+        android:id="@+id/tv_login_forget_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_14dp"
+        android:drawablePadding="@dimen/dimen_10dp"
+        android:drawableRight="@mipmap/forget_password"
+        android:paddingTop="@dimen/dimen_16dp"
+        android:text="忘记登录密码"
+        android:textSize="@dimen/font_17sp" />
+
+</LinearLayout>
