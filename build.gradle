@@ -1,39 +1,37 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
+apply from: "config.gradle"
 
-
-
-project.ext.sdkVersion = 23
-project.ext.buildTools = '25.0.0'
-project.ext.minSdkVersion = 14
+//构建脚本
 buildscript {
+//依赖源
     repositories {
+//使用Jcenter作为依赖源
+// JCenter源为Gradle内置，所以无需额外配置。
         jcenter()
 
     }
+    // 依赖
     dependencies {
+        // Android构建工具
         classpath 'com.android.tools.build:gradle:2.2.2'
         classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
         classpath 'com.droidtitan:lint-cleaner-plugin:0.3.0'
-
-
-
-
-
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
 }
-
+// 应用到所有module（这里加做allprojects是因为对于Gradle来说，module也是一个Gradle project）
 allprojects {
     repositories {
+        // 所有module均使用JCenter作为依赖源
         jcenter()
         maven { url "https://jitpack.io" }
         mavenCentral()
     }
 }
-
+//task中文就是任务，任务有很多种类，Delete就是说这是个删除文件的任务。
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

@@ -28,12 +28,12 @@
         "source": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/houwei/githubspace/HwShow/magicindicator/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",

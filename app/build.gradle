@@ -4,15 +4,22 @@ apply plugin: 'com.droidtitan.lintcleaner'
 
 
 
+// Android配置项
 android {
-    compileSdkVersion 25
-    buildToolsVersion '25.0.3'
+    // 编译SDK版本
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    // 构建工具版本
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
     defaultConfig {
-        applicationId "com.example.houwei.hwshop"
-        minSdkVersion 15
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.0"
+        // 应用唯一标识
+        applicationId rootProject.ext.android.applicationId
+        // 最小支持的API版本
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        // 表示应用基于哪个版本的SDK构建，运行应用的系统不会为这个应用提供新的特性
+        // 这个配置和compileSdkVersion无关
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         javaCompileOptions {
             annotationProcessorOptions {
@@ -41,14 +48,16 @@ android {
 
 
 dependencies {
+    // 依赖是Gradle的标准配置项，所以不在Android配置块里面。
     compile fileTree(include: ['*.jar'], dir: 'libs')
     //    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.3@aar'
     //必须使用
     compile project(':magicindicator')
-    compile project(path: ':okhttp3')
     testCompile 'junit:junit:4.12'//被误删除了。。。不知道啥时候删的...
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile 'com.jakewharton:butterknife:8.1.0'
+
+    compile rootProject.ext.dependencies["constraint-layout"]
+    compile rootProject.ext.dependencies["butterknife"]
+
     compile 'com.squareup.retrofit2:retrofit:2.2.0'
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
     compile 'com.squareup.retrofit2:adapter-rxjava2:2.2.0'

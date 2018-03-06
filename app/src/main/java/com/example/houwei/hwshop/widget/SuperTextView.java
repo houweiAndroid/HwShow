@@ -22,6 +22,7 @@ import com.example.houwei.hwshop.R;
 
 public class SuperTextView extends RelativeLayout {
 
+
     private Context mContext;
     private int defaultBgColor = 0xFFFFFFFF;//默认背景颜色
     private int defaultLineColor = 0xFFE8E8E8;//线的默认颜色
